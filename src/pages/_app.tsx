@@ -17,16 +17,16 @@ function MyApp({ Component, pageProps }: AppProps) {
           type="image/x-icon"
         />
 
-        <title>{`NAPTheDev's Portfolio`}</title>
+        <title>{`Enodex`}</title>
 
-        <meta name="title" content="NAPTheDev's Portfolio" />
-        <meta name="description" content="Nguyen Anh Phong's Portfolio" />
+        <meta name="title" content="Enodex" />
+        <meta name="description" content="Enodex's Portfolio" />
 
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="NAPTheDev's Portfolio" />
+        <meta property="og:title" content="Enodex's Portfolio" />
         <meta
           property="og:description"
-          content="Nguyen Anh Phong's Portfolio"
+          content="Enodex"
         />
         <meta property="og:image" content="/avatar.jpg" />
 
@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="twitter:title" content="NAPTheDev's Portfolio" />
         <meta
           property="twitter:description"
-          content="Nguyen Anh Phong's Portfolio"
+          content="Enodex's Portfolio"
         />
         <meta property="twitter:image" content="/avatar.jpg" />
       </Head>
