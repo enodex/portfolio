@@ -8,24 +8,8 @@ import "../shared/lol.css";
 
 const Intro: FC = () => {
   return (
-   
-<div classname="container">
-    <div classname="box">
-
-        <div classname="title">
-            <span classname="block"></span>
-            <h1>Hi, I'm Enodex<span></span></h1>
-        </div>
-
-        <div classname="role">
-            <div classname="block"></div>
-            <p>Staking PoS Validator</p>
-        </div>
-    </div>
-</div>
-    </div>
-</footer>
-   </a>
+<div className="relative h-screen flex justify-center items-center flex-col gap-5">
+      <Canvas />
      
       <m.p
         data-scroll
