@@ -2,6 +2,7 @@ import { FC, Fragment } from "react";
 
 import { BiChevronsDown } from "react-icons/bi";
 import Canvas from "./Canvas";
+import Typewriter from "svelte-typewriter";
 import { characters } from "../shared/contants";
 import { m } from "framer-motion";
 
