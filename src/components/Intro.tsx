@@ -4,15 +4,29 @@ import { BiChevronsDown } from "react-icons/bi";
 import Canvas from "./Canvas";
 import { characters } from "../shared/contants";
 import { m } from "framer-motion";
+import "../shared/lol.css";
 
 const Intro: FC = () => {
   return (
     <div className="relative h-screen flex justify-center items-center flex-col gap-5">
       <Canvas />
 
-     <span>Technologist.</span><span>Designer.</span><span
-                  >Coder.</span
-                >
+     <div class="container">
+    <div class="box">
+
+        <div class="title">
+            <span class="block"></span>
+            <h1>Hi, I'm Enodex<span></span></h1>
+        </div>
+
+        <div class="role">
+            <div class="block"></div>
+            <p>Staking PoS Validator</p>
+        </div>
+
+    </div>
+</div>
+    </div>
       <m.p
         data-scroll
         data-scroll-speed="1"
