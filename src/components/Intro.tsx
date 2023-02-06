@@ -2,7 +2,6 @@ import { FC, Fragment } from "react";
 
 import { BiChevronsDown } from "react-icons/bi";
 import Canvas from "./Canvas";
-import Typewriter from "svelte-typewriter";
 import { characters } from "../shared/contants";
 import { m } from "framer-motion";
 
@@ -11,11 +10,9 @@ const Intro: FC = () => {
     <div className="relative h-screen flex justify-center items-center flex-col gap-5">
       <Canvas />
 
-     <Typewriter loop
-                ><span>Technologist.</span><span>Designer.</span><span
+     <span>Technologist.</span><span>Designer.</span><span
                   >Coder.</span
-                ></Typewriter
-              >
+                >
       <m.p
         data-scroll
         data-scroll-speed="1"
