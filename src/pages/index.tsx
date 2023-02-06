@@ -1,7 +1,6 @@
 import type { GetStaticProps, NextPage } from "next";
 
 import Contact from "../components/Contact";
-import Cursor from "../components/Cursor";
 import { GET_ALL_DATA } from "../graphql/queries";
 import Intro from "../components/Intro";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
