@@ -22,7 +22,7 @@ const Intro: FC = () => {
               initial={{ pathLength: 0 }}
               animate={{ pathLength: 1 }}
               transition={{ delay: index / 10, duration: 1 }}
-              d={character}
+              d="Enodex"
               fill="none"
               stroke="#FFF"
               strokeWidth="3"
@@ -32,7 +32,7 @@ const Intro: FC = () => {
               animate={{ fill: "#ffffff" }}
               transition={{ delay: 0.7 + index / 10, duration: 0.6 }}
               fill="none"
-              d={character}
+              d="Enodex"
             ></m.path>
           </Fragment>
         ))}
