@@ -11,7 +11,8 @@ const Intro: FC = () => {
     <div className="relative h-screen flex justify-center items-center flex-col gap-5">
       <Canvas />
 
-     <div class="container">
+     
+    const myHTML = `<div class="container">
     <div class="box">
 
         <div class="title">
@@ -26,7 +27,9 @@ const Intro: FC = () => {
 
     </div>
 </div>
-    </div>
+    </div>`;
+
+const App = () => <div dangerouslySetInnerHTML={{ __html: myHTML }} />;
       <m.p
         data-scroll
         data-scroll-speed="1"
