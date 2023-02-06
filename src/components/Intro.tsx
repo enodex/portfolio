@@ -8,8 +8,7 @@ import "../shared/lol.css";
 
 const Intro: FC = () => {
   return (
-    <div className="relative h-screen flex justify-center items-center flex-col gap-5">
-      <Canvas />
+   
 <div class="container">
     <div class="box">
 
