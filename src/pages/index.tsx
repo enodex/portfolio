@@ -31,7 +31,6 @@ const Home: NextPage<HomeProps> = ({ data }) => {
       watch={[]}
       containerRef={containerRef}
     >
-      <Cursor />
 
       <div data-scroll-container ref={containerRef}>
         <Intro />
