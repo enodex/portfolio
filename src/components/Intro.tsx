@@ -1,5 +1,5 @@
 import { FC, Fragment } from "react";
-
+import pre from '../shared/pre.ts'
 import { BiChevronsDown } from "react-icons/bi";
 import Canvas from "./Canvas";
 import { characters } from "../shared/contants";
@@ -9,10 +9,11 @@ const Intro: FC = () => {
   return (
 <div className="relative h-screen flex justify-center items-center flex-col gap-5">
       <Canvas />
-     <h1 class="ml15">
-  <span class="word">Hi,</span>
-  <span class="word">I'm Enodex</span>
-</h1>
+  <div>
+                 <li>                          
+                    <div dangerouslySetInnerHTML={{__html: pre}} />
+                 </li>
+           </div>  
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
       <m.p
