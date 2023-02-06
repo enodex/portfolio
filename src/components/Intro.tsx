@@ -9,7 +9,12 @@ const Intro: FC = () => {
   return (
 <div className="relative h-screen flex justify-center items-center flex-col gap-5">
       <Canvas />
-     
+     <h1 class="ml15">
+  <span class="word">Hi,</span>
+  <span class="word">I'm Enodex</span>
+</h1>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
       <m.p
         data-scroll
         data-scroll-speed="1"
