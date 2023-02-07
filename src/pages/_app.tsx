@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <link
           rel="shortcut icon"
-          href="/title.png"
+          href="/revisi.png"
           type="image/x-icon"
         />
 
