@@ -25,7 +25,7 @@ const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
               <div className="border-black border-[8px]">
                 <img
                   className="w-full h-auto rounded-[12px]"
-                  src={project.image.url}
+                  src="https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png"
                   alt=""
                 />
               </div>
