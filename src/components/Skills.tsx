@@ -32,7 +32,7 @@ Enodex fully contribute in network and community.
       >
 Active and monitoring
       </p>
-            <p className="text-[20px] text-left my-3">Provide tools
+      <p className="text-[20px] text-left my-3">Provide tools</p>
            
       <span>Endpoints</span>
       <span>IBC Relayers</span>
