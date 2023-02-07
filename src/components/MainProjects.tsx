@@ -2,7 +2,7 @@ import { BiLinkExternal } from "react-icons/bi";
 import { FC } from "react";
 import { FaGithub } from "react-icons/fa";
 import { allDataType } from "../shared/types";
-import { mainproject } from "../shared/contant";
+import { mainproject } from "../shared/contants";
 
 interface MainProjectsProps {
   projects: allDataType["projects"];
