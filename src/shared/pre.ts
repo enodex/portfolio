@@ -1,4 +1,4 @@
-export default iframeCode = `<div class="container">
+export default yoko = `<div class="container">
     <div class="box">
 
         <div class="title">
