@@ -2,6 +2,7 @@ import { BiLinkExternal } from "react-icons/bi";
 import { FC } from "react";
 import { FaGithub } from "react-icons/fa";
 import { allDataType } from "../shared/types";
+import { mainproject } from "../shared/constant";
 
 interface MainProjectsProps {
   projects: allDataType["projects"];
@@ -25,7 +26,7 @@ const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
               <div className="border-black border-[8px]">
                 <img
                   className="w-full h-auto rounded-[12px]"
-                  src="https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png"
+                  src={mainproject.image}
                   alt=""
                 />
               </div>
