@@ -22,7 +22,7 @@ const Who: FC = () => {
         <p data-scroll className="text-lg text-gray-200" id="story">
           I learning basic programming for almost 3 years, and I started become node validator 1 year ago,
           I have gained experience in that time and still learning to improve service. I started with testnet chain
-          on several project then decided to expanding and validating mainnet, stake on enodex with low fee.
+          on several project then decided to expanding and validating mainnet, stake on enodex with low fees.
         </p>
       </div>
     </div>
