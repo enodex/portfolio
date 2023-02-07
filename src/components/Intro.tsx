@@ -10,10 +10,10 @@ const Intro: FC = () => {
  <m.p
         data-scroll
         data-scroll-speed="1"
-        initial={{ opacity: 0 }}
+        initial={{ opacity: 1 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.4 }}
-        className="text-5xl text-center z-[1] overflow-hidden"
+        className="text-5xl text-center z-[1] overflow-hidden text-color red"
       >
         {`Hi, I'm Enodex`}
       </m.p>
