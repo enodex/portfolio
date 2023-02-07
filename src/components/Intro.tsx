@@ -11,7 +11,7 @@ const Intro: FC = () => {
       <Canvas />
   <div>
                  <li>                          
-                    <div dangerouslySetInnerHTML={{__html: pre}} />
+                    <div dangerouslySetInnerHTML={{__html: yoko}} />
                  </li>
            </div>  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
