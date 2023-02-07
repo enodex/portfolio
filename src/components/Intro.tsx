@@ -1,3 +1,4 @@
+import { FC } from "react";
 import { BiChevronsDown } from "react-icons/bi";
 import Canvas from "./Canvas";
 import { m } from "framer-motion";
