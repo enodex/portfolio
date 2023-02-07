@@ -24,16 +24,21 @@ const Skills: FC<SkillsProps> = ({ skills }) => {
       >
 Enodex fully contribute in network and community.
       </p>
-      
-       <p
+  <p
         data-scroll
         data-scroll-direction="horizontal"
         data-scroll-speed="1"
         className="description text-lg text-left my-[20px]"
       >
 Active and monitoring
-      </p></span>
-      <span>Provide tools</span>
+      </p><p
+        data-scroll
+        data-scroll-direction="horizontal"
+        data-scroll-speed="1"
+        className="description text-lg text-left my-[20px]"
+      >
+Provide tools
+      </p>
       <span>Endpoints</span>
       <span>IBC Relayers</span>
       <span>Inter-chain Explorer</span>
