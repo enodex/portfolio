@@ -17,7 +17,6 @@ const Intro: FC = () => {
       >
         {`Hi, I'm Enodex`}
       </m.p>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
       <m.p
         data-scroll
         data-scroll-speed="1"
