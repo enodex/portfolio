@@ -14,6 +14,7 @@ export interface allDataType {
     image: {
       url: string;
     };
+    planq-img : "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png";
   }[];
   smallProjects: {
     id: string;
