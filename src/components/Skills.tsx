@@ -28,7 +28,7 @@ Enodex fully contribute in network and community.
    <p className="text-[20px] text-left my-3">Provide tools</p>   
     <p className="text-[20px] text-left my-3">Endpoint</p> 
       <p className="text-[20px] text-left my-3">IBC Relayer</p> 
-      <span>Inter-chain Explorer</span>
+      <p className="text-[20px] text-left my-3">Inter-chain Explorer</p> 
     </div>
   );
 };
