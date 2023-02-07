@@ -31,7 +31,7 @@ Enodex fully contribute in network and community.
         className="description text-lg text-left my-[20px]"
       >
 Active and monitoring
-      </p><div className="item-info lg:flex-1">
+      </p>
             <h1 className="text-3xl">Provide Tools</h1>
             <p className="text-[20px] text-justify my-3">
               presents snapshot , statsync , relayer and guide
