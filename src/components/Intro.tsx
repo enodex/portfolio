@@ -8,8 +8,16 @@ const Intro: FC = () => {
   return (
 <div className="relative h-screen flex justify-center items-center flex-col gap-5">
       <Canvas />
- <span style="color:blue">Hi,></span>
-  <span style="color:red">I'm Enodex></span>
+ <m.p
+        data-scroll
+        data-scroll-speed="1"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 1.4 }}
+        className="text-5xl text-center z-[1] overflow-hidden"
+      >
+        {`Hi, I'm Enodex`}
+      </m.p>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
       <m.p
         data-scroll
