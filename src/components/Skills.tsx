@@ -7,7 +7,7 @@ interface SkillsProps {
 
 const Skills: FC<SkillsProps> = ({ skills }) => {
   return (
-    <div className="lg:min-h-[70vh] px-[5vw] py-[80px] flex flex-col items-center justify-left z-[4]">
+    <div className="lg:min-h-[70vh] px-[5vw] py-[80px] flex flex-col items-center justify-center z-[4]">
       <h1
         data-scroll
         data-scroll-direction="horizontal"
@@ -32,10 +32,8 @@ Enodex fully contribute in network and community.
       >
 Active and monitoring
       </p>
-            <h2 className="text-3xl">Provide tools</h2>
-            <p className="text-[20px] text-left my-3">
-              presents snapshot , statsync , relayer and guide
-            </p>
+            <p className="text-[20px] text-left my-3">Provide tools
+           
       <span>Endpoints</span>
       <span>IBC Relayers</span>
       <span>Inter-chain Explorer</span>
