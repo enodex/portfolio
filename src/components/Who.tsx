@@ -21,16 +21,7 @@ const Who: FC = () => {
         {/* Hide my age :v */}
         <p data-scroll className="text-lg text-gray-200" id="story">
           I learning basic programming for almost 3 years, and I started become node validator 1 year ago,
-          I have gained experience in that time and still learning to improve service{" "}
-          <a
-            className="underline underline-offset-2"
-            href="https://blog.napthedev.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            writing blog posts
-          </a>
-          , listening to music and playing video games
+          I have gained experience in that time and still learning to improve service. 
         </p>
       </div>
     </div>
