@@ -1,5 +1,5 @@
 import { FC, Fragment } from "react";
-import pre from '../shared/pre.ts';
+import pre from '../shared/pre';
 import { BiChevronsDown } from "react-icons/bi";
 import Canvas from "./Canvas";
 import { characters } from "../shared/contants";
