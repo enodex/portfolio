@@ -32,17 +32,12 @@ export const socialLinks = [
   {
     title: "Github",
     icon: "/github.png",
-    link: "https://github.com/napthedev",
-  },
-  {
-    title: "Facebook",
-    icon: "/facebook.png",
-    link: "https://www.facebook.com/napthedev",
+    link: "https://github.com/enodex",
   },
   {
     title: "Discord",
     icon: "/discord.png",
-    link: "https://discord.com/users/877882975855992852",
+    link: "https://discord.com/users/613329835254743040",
   },
   {
     title: "Codepen",
@@ -50,8 +45,8 @@ export const socialLinks = [
     link: "https://codepen.io/enaypi",
   },
   {
-    title: "My blog",
-    icon: "/blog.png",
-    link: "https://blog.napthedev.com",
+    title: "Explorer",
+    icon: "/avatar.jpg",
+    link: "https://explorer.enodex.lol",
   },
 ];
