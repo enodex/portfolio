@@ -27,7 +27,12 @@ export const canvasImages = [
   (icon) =>
     `https://images.weserv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FPKief%2Fvscode-material-icon-theme%40main%2Ficons%2F${icon}.svg&w=50&h=50`
 );
-
+export const mainproject = [{
+title: "Planq",
+image: "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png",
+description: "planq",
+}
+                       ];
 export const socialLinks = [
   {
     title: "Github",
