@@ -31,14 +31,11 @@ Enodex fully contribute in network and community.
         className="description text-lg text-left my-[20px]"
       >
 Active and monitoring
-      </p><p
-        data-scroll
-        data-scroll-direction="horizontal"
-        data-scroll-speed="1"
-        className="description text-lg text-left my-[20px]"
-      >
-Provide tools
-      </p>
+      </p><div className="item-info lg:flex-1">
+            <h1 className="text-3xl">Provide Tools</h1>
+            <p className="text-[20px] text-justify my-3">
+              presents snapshot , statsync , relayer and guide
+            </p>
       <span>Endpoints</span>
       <span>IBC Relayers</span>
       <span>Inter-chain Explorer</span>
