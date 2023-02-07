@@ -1,5 +1,4 @@
 import { FC, Fragment } from "react";
-import yoko from '../shared/pre';
 import { BiChevronsDown } from "react-icons/bi";
 import Canvas from "./Canvas";
 import { characters } from "../shared/contants";
@@ -9,11 +8,8 @@ const Intro: FC = () => {
   return (
 <div className="relative h-screen flex justify-center items-center flex-col gap-5">
       <Canvas />
-  <div>
-                 <li>                          
-                    <div dangerouslySetInnerHTML={{__html: yoko}} />
-                 </li>
-           </div>  
+ <span style="color:blue">Hi,></span>
+  <span style="color:red">I'm Enodex></span>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
       <m.p
         data-scroll
