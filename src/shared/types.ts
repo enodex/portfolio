@@ -12,7 +12,7 @@ export interface allDataType {
     github: string;
     technologies: string[];
     image: {
-      url: string;
+      url: "https://raw.githubusercontent.com/nodestake/explorer/master/public/logos/realio.jpg";
     };
   }[];
   smallProjects: {
