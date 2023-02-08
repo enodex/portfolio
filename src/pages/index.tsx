@@ -47,25 +47,16 @@ const Home: NextPage<HomeProps> = ({ data }) => {
             </div>
           </div>
           <div className="item-info lg:flex-1">
-            <h1 className="text-3xl">{project.title}</h1>
+            <h1 className="text-3xl">"planq"</h1>
             <p className="text-[20px] text-justify my-3">
               "YOYO"
             </p>
 
-            <div className="flex gap-[5px]">
-              {project.technologies.map((tech) => (
-                <img
-                  key={tech}
-                  className="w-[30px] h-[30px]"
-                  src={tech}
-                  alt=""
-                />
-              ))}
-            </div>
+           
 
             <div className="flex mt-[25px] gap-[20px]">
               <a
-                href={project.demo}
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-[45px] px-[15px] text-white rounded transition duration-300 flex items-center gap-[10px] bg-[#1876d2] hover:bg-[#2884e0]"
@@ -74,7 +65,7 @@ const Home: NextPage<HomeProps> = ({ data }) => {
                 <span> Live Demo</span>
               </a>
               <a
-                href={project.github}
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-[45px] px-[15px] text-white rounded transition duration-300 flex items-center gap-[10px] bg-[#1b222b] hover:bg-[#191e25]"
