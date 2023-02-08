@@ -4,7 +4,6 @@ import Contact from "../components/Contact";
 import { GET_ALL_DATA } from "../graphql/queries";
 import Intro from "../components/Intro";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
-import MainProjects from "../components/MainProjects";
 import Skills from "../components/Skills";
 import SmallProjects from "../components/SmallProjects";
 import Who from "../components/Who";
